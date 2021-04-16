@@ -1,0 +1,143 @@
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#title {
+    color: #fff;
+    background-image: linear-gradient(to left bottom, #c86bd1, #b96cd1, #a96dd0, #996ece, #8a6ecb, #8262b3, #79569d, #6e4b87, #5b365d, #422439, #26161d, #000000);
+}
+
+p {
+    color: #8f8f8f;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-top:0;
+    margin-bottom:.5rem;
+    font-weight:bold;
+    line-height:1.2
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar-brand{
+    padding-top:.3125rem;
+    padding-bottom:.3125rem;
+    margin-right:1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration:none;
+    white-space:nowrap
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+/* download-button */
+
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
+/* title-image */
+
+.title-image{
+    padding: 0% 10%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* Features section */
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #5b365d;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #6e4b87;
+}
+
+/* Game section */
+
+#game {
+    padding: 7% 5%;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(to right bottom, #c86bd1, #b96cd1, #a96dd0, #996ece, #8a6ecb, #8262b3, #79569d, #6e4b87, #5b365d, #422439, #26161d, #000000);
+}
+
+.sport-image {
+    margin: 20px;
+}
+
+/* call to action */
+
+#cta {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#cta .cta-text{
+    font-size: 3.5rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* footer */
+
+#footer {
+    padding: 2% 5%;
+    text-align: center;
+    background-image: radial-gradient(circle, #c86bd1, #b96cd1, #a96dd0, #996ece, #8a6ecb, #8262b3, #79569d, #6e4b87, #5b365d, #422439, #26161d, #000000);
+}
+
+#footer p {
+    color: #fff;
+    font-size: large;
+}
+
+
+@media (max-width: 1200px) {
+    .title-image {
+        padding: 5%;
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
